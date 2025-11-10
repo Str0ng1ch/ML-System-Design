@@ -14,3 +14,11 @@ repos:
 
       - id: detect-private-key        # Checks for the existence of private keys.
       - id: no-commit-to-branch       # Protect specific branches from direct checkins.
+      - id: mixed-line-ending         # Replaces or checks mixed line ending.
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.4
+    hooks:
+      - id: ruff-check                # Run the linter.
+        args: [ --fix, --exit-non-zero-on-fix ]
+      - id: ruff-format               # Run the formatter.

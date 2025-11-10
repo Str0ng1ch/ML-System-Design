@@ -1,0 +1,7 @@
+[project]
+name = "Jane AI-assistant"
+version = "0.1.0"
+
+[tool.ruff]
+target-version = "py313"
+select = ["E", "W", "F", "I"]
