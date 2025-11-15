@@ -1,4 +1,4 @@
-# Jane - AI-assistant
+# Jane AI-assistant
 
 ### 📄 Описание проекта
 
