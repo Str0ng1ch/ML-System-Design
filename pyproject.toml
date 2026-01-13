@@ -7,9 +7,11 @@ target-version = "py313"
 exclude = [
     "**/*.ipynb",
 ]
+line-length = 120
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "I"]
+ignore = ["E722", "E741", "F841"]
 
 [tool.data]
 data-dir = "data"
